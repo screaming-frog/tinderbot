@@ -41,7 +41,7 @@ def face_cropper_img(image_name):
 
 
 width, height = pag.size()
-desperation = float(input('Enter desperation level: '))
+desperation = float(input('Enter desperation factor: '))
 while True:
     time.sleep(2)
 
