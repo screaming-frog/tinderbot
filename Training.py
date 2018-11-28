@@ -13,7 +13,7 @@ def batch(iterable, n=128):
     for ndx in range(0, l, n):
         yield iterable[ndx:min(ndx + n, l)]
 
-app = ClarifaiApp(api_key='72274b24aa40462ab3d685c8a7a89c97')
+app = ClarifaiApp(api_key='REDACTED')
 
 img_locs = scrambled(glob(".//persons_cropped//*.jpg")) #all photos in the 'no' set, shuffled
 no_train = img_locs[:401] #select the training data for 'no'
