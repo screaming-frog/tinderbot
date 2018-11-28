@@ -11,7 +11,7 @@ engine = pyttsx3.init() # initialise text to speech
 positive_speech = ['Yes please', 'Hell yeah','Why not?', 'Sure', 'Yes'] #Possible voice lines
 negative_speech = ['I respectfully decline', 'No comment','Next!', 'Nah', 'Its not you, its me', 'sai yo naara']
 
-app = ClarifaiApp(api_key='72274b24aa40462ab3d685c8a7a89c97') #init the ml stuff
+app = ClarifaiApp(api_key='REDACTED') #init the ml stuff
 crop_model = app.models.get('face-v1.3')
 model = app.models.get('swaipuwaifu')
 
