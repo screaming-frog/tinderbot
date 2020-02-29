@@ -1,5 +1,5 @@
 # SwaipuWaifu
-Deep learning model trained via Clarifai on data scraped from Yuki's Tinder for automated swiping
+Deep learning model trained via Clarifai on data scraped from Yuki's Tinder for automated swiping. Used CLarifai as a showcase of their platform. Probably will get better results with finetuning on top of FaceNet.
 
 ## Requirements
 
