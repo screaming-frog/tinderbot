@@ -64,7 +64,7 @@ temp==1.0.2
 tensorboard==1.9.0
 tensorflow==1.9.0
 termcolor==1.1.0
-urllib3==1.24
+urllib3==1.26.5
 vlc==0.1.1
 Werkzeug==0.14.1
 wxPython==4.0.3
